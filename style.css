@@ -1,0 +1,32 @@
+#search {
+    width: 90%;
+    padding: 10px;
+    margin: 15px auto;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+
+}
+#topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+
+}
+.topic {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.topic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
